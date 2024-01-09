@@ -15,9 +15,10 @@ public class BaseActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        String firebaseURL = "https://foodapp-a347f-default-rtdb.asia-southeast1.firebasedatabase.app/";
 
         super.onCreate(savedInstanceState);
-        database = FirebaseDatabase.getInstance();
+        database = FirebaseDatabase.getInstance(firebaseURL);
         mAuth = FirebaseAuth.getInstance();
 
         getWindow().setStatusBarColor(getResources().getColor(R.color.white));

@@ -168,7 +168,7 @@
                     android:text="Không có tài khoản?" />
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/dangnhapBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/red"

@@ -1,22 +1,20 @@
 package com.example.foodapp.Domain;
 
 public class Category {
-    private int id;
+    private int Id;
     private String ImagePath;
     private String Name;
 
-    public Category(int id, String imagePath, String name) {
-        this.id = id;
-        ImagePath = imagePath;
-        Name = name;
+    public Category() {
+
     }
 
     public int getId() {
-        return id;
+        return Id;
     }
 
     public void setId(int id) {
-        this.id = id;
+        Id = id;
     }
 
     public String getImagePath() {

@@ -80,7 +80,7 @@
                     android:orientation="horizontal">
 
                     <EditText
-                        android:id="@+id/editTextText"
+                        android:id="@+id/searchEdtText"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -94,7 +94,7 @@
                         android:textSize="20dp" />
 
                     <ImageView
-                        android:id="@+id/imageView10"
+                        android:id="@+id/searchBtn"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
@@ -192,6 +192,7 @@
                         android:id="@+id/priceSp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_marginEnd="4dp"
                         android:layout_marginStart="4dp"
                         android:layout_weight="1"
                         android:background="@drawable/grey_background" />
@@ -226,7 +227,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp">
+                android:layout_height="wrap_content">
 
                 <ProgressBar
                     android:id="@+id/progressBarBestFood"
@@ -242,6 +243,9 @@
                     android:id="@+id/bestFoodView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -262,10 +266,11 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:layout_marginBottom="8dp"
                 android:layout_height="wrap_content">
 
                 <ProgressBar
-                    android:id="@+id/progressBar2"
+                    android:id="@+id/progressBarCategory"
                     style="?android:attr/progressBarStyle"
                     android:layout_width="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -275,6 +280,7 @@
                     android:layout_height="wrap_content" />
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/categoryView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>

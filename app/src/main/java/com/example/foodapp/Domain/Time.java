@@ -1,9 +1,10 @@
 package com.example.foodapp.Domain;
 
-public class Price {
+public class Time {
     private int Id;
     private String Value;
-    public Price(){
+
+    public Time(){
 
     }
 

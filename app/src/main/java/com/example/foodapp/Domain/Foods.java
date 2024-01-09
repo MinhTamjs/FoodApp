@@ -1,7 +1,9 @@
 package com.example.foodapp.Domain;
 
-public class Foods {
-    private int id;
+import java.io.Serializable;
+
+public class Foods implements Serializable {
+    private int CategoryId;
     private String Description;
     private boolean BestFood;
     private int Id;
@@ -15,33 +17,29 @@ public class Foods {
     private String Title;
     private int numberInCart;
 
-    //int id, String description, boolean bestFood, int id1, int locationId, double price, String imagePath, int priceId, double star, int timeId, int timeValue, String title, int numberInCart
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
+    }
+
     public Foods() {
-//        this.id = id;
-//        Description = description;
-//        BestFood = bestFood;
-//        Id = id1;
-//        LocationId = locationId;
-//        Price = price;
-//        ImagePath = imagePath;
-//        PriceId = priceId;
-//        Star = star;
-//        TimeId = timeId;
-//        TimeValue = timeValue;
-//        Title = title;
-//        this.numberInCart = numberInCart;
+
     }
     @Override
     public String toString(){
         return Title;
     }
 
-    public int getId() {
-        return id;
+    public int getCategoryId() {
+        return CategoryId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setCategoryId(int categoryId) {
+        CategoryId = categoryId;
     }
 
     public int getLocationId() {
