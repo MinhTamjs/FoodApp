@@ -42,6 +42,7 @@ public class MainActivity extends BaseActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        displayName();
         initLocation();
         initTime();
         initPrice();
@@ -218,6 +219,16 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
 
+            }
+        });
+    }
+
+    private void displayName(){
+        binding.userMailDisplayTxt.setText(mAuth.getCurrentUser().getEmail());
+        binding.userMailDisplayTxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, UserActivity.class));
             }
         });
     }
