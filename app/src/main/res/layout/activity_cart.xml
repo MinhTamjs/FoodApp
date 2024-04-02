@@ -201,6 +201,17 @@
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/zaloPayBtn"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/zalo_button_background"
+                android:text="Thanh toán bằng Zalo Pay"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
         </LinearLayout>
     </ScrollView>
 
