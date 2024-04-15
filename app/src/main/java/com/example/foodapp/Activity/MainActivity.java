@@ -24,6 +24,7 @@ import com.example.foodapp.Domain.Price;
 import com.example.foodapp.Domain.Time;
 import com.example.foodapp.R;
 import com.example.foodapp.databinding.ActivityMainBinding;
+import com.google.android.gms.maps.GoogleMap;
 import com.google.firebase.Firebase;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -35,6 +36,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends BaseActivity {
     private ActivityMainBinding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +87,12 @@ public class MainActivity extends BaseActivity {
                     intent.putExtra("isSearch", true);
                     startActivity(intent);
                 }
+            }
+        });
+        binding.filterBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MapsActivity.class));
             }
         });
 
