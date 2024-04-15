@@ -21,24 +21,20 @@
 ## Screenshot
 Đăng ký/ Đăng nhập:
 
-![Giao diện đăng ký](https://github.com/MinhTamjs/FoodApp/assets/107335521/40adcc8f-48e2-483e-a96f-f79f29af4181)               ![Giao diện đăng nhập](https://github.com/MinhTamjs/FoodApp/assets/107335521/8b2b5cf6-7c39-4f3d-b027-8cd28eb84291)
+| Đăng ký | Đăng nhập |
+|------------|------------|
+| <img src="https://github.com/MinhTamjs/FoodApp/assets/107335521/40adcc8f-48e2-483e-a96f-f79f29af4181" width="360" height="620"> | <img src="https://github.com/MinhTamjs/FoodApp/assets/107335521/8b2b5cf6-7c39-4f3d-b027-8cd28eb84291" width="360" height="620"> |
 
 Giao diện chính:
 
-![Giao diện chính](https://github.com/MinhTamjs/FoodApp/assets/107335521/86129f20-d7af-4a60-8afe-b26a0a975d69)
+| Trang chủ | Danh sách món ăn 
+|------------|------------|
+| <img src="https://github.com/MinhTamjs/FoodApp/assets/107335521/86129f20-d7af-4a60-8afe-b26a0a975d69" width="360" height="620"> | <img src="https://github.com/MinhTamjs/FoodApp/assets/107335521/362071b0-d413-4380-97a2-6592622b9718" width="360" height="620"> | 
 
-Danh sách món ăn:
 
-![Giao diện danh sách món ăn](https://github.com/MinhTamjs/FoodApp/assets/107335521/362071b0-d413-4380-97a2-6592622b9718)
-
-Chi tiết món ăn:
-
-![Giao diện chi tiết món ăn](https://github.com/MinhTamjs/FoodApp/assets/107335521/07d1f72d-ec2d-48fe-8ebc-4e244c1f8a3b)
-
-Giỏ hàng:
-
-![Giao diện giỏ hàng](https://github.com/MinhTamjs/FoodApp/assets/107335521/2640d57e-698a-4555-a711-d86dd80bdb0e)
-
+| Chi tiết món ăn | Giỏ hàng |
+|------------|------------|
+<img src="https://github.com/MinhTamjs/FoodApp/assets/107335521/07d1f72d-ec2d-48fe-8ebc-4e244c1f8a3b" width="360" height="620"> | <img src="https://github.com/MinhTamjs/FoodApp/assets/107335521/2640d57e-698a-4555-a711-d86dd80bdb0e" width="360" height="620"> | 
 
 
 
